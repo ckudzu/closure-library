@@ -3,4 +3,4 @@ module(
     version = "0.15.0",
 )
 
-bazel_dep(name="io_bazel_rules_closure", module_name = "rules_closure", version = "0.15.0")
+bazel_dep(name="io_bazel_rules_closure", repo_name = "rules_closure", version = "0.15.0")
