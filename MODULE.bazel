@@ -1,2 +1,6 @@
+module(
+    name = "closure_library",
+    version = "0.15.0",
+)
 
 bazel_dep(name = "rules_closure", version = "0.15.0")
